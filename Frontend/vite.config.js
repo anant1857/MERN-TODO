@@ -4,5 +4,5 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base: '/Frontend', // 🛠️ This is the key addition
+  base: '/', // 🛠️ This is the key addition
 })
