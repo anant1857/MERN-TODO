@@ -23,7 +23,7 @@ const navigate = useNavigate()
 
 const submitForm = async(e)=>{
   e.preventDefault()
-await axios.post("http://localhost:8000/api/create", user)
+await axios.post("https://mern-todo-backend-6oaa.onrender.com/api/create", user)
 .then((res) =>{
  toast.success("User Created Successfully",{position:"top-right"})
  navigate("/")
